@@ -4,5 +4,6 @@
 - Login, Register and Change Password pages
 - Background customization
 - Quizz
-- User profile page
--
+- User profile page 
+- Font size customization
+- Easy navigation
