@@ -1,0 +1,104 @@
+body {
+  background: url("../images/bg2.jpg");
+  font-family: "Roboto", sans-serif;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: 0;
+  padding-top: 100px;
+  padding-bottom: 50px;
+  height: auto;
+  overflow-x: hidden;
+  transition: background-color 0.3s ease;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 10px 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}
+header .btn {
+  background: rgba(255, 255, 255, 0.2);
+  background: transparent;
+}
+
+.title {
+  font-family: "Pacifico", cursive;
+  font-size: 32px;
+  cursor: pointer;
+  font-style: italic;
+  text-align: center;
+  flex-grow: 1;
+}
+
+.color-option {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.modal-body {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.bg-change {
+  max-width: 60px;
+  max-height: 30px;
+  overflow: hidden;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.bg-change img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.container2 {
+  max-width: 600px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 40px 20px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+  overflow: auto;
+  font-size: 24px;
+}
+
+.card {
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.btn-correct {
+  background-color: #8bc34a !important; /* Green color for correct answer */
+}
+
+.btn-incorrect {
+  background-color: #f44336 !important; /* Red color for incorrect answer */
+}
+
+#answerOptions button {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+}

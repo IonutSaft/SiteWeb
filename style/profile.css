@@ -1,0 +1,94 @@
+body {
+  background-color: #353535;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  overflow-x: hidden;
+}
+
+/* Custom styles for profile.php */
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  text-align: center;
+  background-color: #f8f9fa; /* Light background color */
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Soft box shadow */
+}
+
+.profile-picture img {
+  width: 150px;
+  height: 150px;
+}
+
+/* Optional: Additional custom styles for buttons */
+.btn-dark,
+.btn-secondary {
+  width: 150px; /* Set button width */
+  margin-right: 10px; /* Add margin between buttons */
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  padding: 10px 20px;
+  position: relative;
+}
+
+.title {
+  font-family: "Pacifico", cursive;
+  font-size: 32px;
+  margin-left: 20px;
+  cursor: pointer;
+  font-style: italic;
+}
+
+.user-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  padding: 4px 16px;
+  overflow: hidden;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #760e18;
+}
+
+.profile-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%; /* Rounded profile image */
+  margin-right: 10px;
+}
+
+.username {
+  font-size: 16px;
+}
+
+.header-btn {
+  background-color: #760e18;
+  color: #fff;
+  border: none;
+  padding: 10px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+.logout-btn {
+  background-color: #760e18;
+  color: #fff;
+  border: none;
+  padding: 13px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+.logout-btn:hover,
+.header-btn:hover {
+  background-color: #c82333;
+}
