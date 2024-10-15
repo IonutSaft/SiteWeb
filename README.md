@@ -7,3 +7,4 @@
 - User profile page 
 - Font size customization
 - Easy navigation
+- PHP MyAdmin database
